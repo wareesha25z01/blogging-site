@@ -1,0 +1,68 @@
+.navbar{
+    color: blue !important;
+    border-radius: 20px !important;
+    margin: 2px !important;
+    background-color: green !important;
+}
+.nav-link{
+font-weight: bolder !important;
+color: black !important;
+background-color: red !important;
+border-radius: 30px !important;
+}
+.nav-item{
+    border-style: solid !important;
+    align-content: space-between !important;
+    
+}
+.nav-link:hover{
+    background-color: ivory !important;
+}
+.wq{
+    border-radius: 5px !important;
+    margin-right: -20px !important;
+}
+.card{
+    justify-content: space-around !important;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap!important;
+    flex-direction: row !important;
+}
+  .card1 , .card2 , .card3{
+      width: 300px;
+      height: 100px;
+      box-shadow: 2px 3px 5px gainsboro;
+      display: flex !important;
+      justify-content: center!important;
+      align-items: center;
+       margin-top: 10px !important;
+  }
+  .fa-user-circle , .fa-address-book-o{
+      font-size: 30px !important;
+  }
+  .footer{
+      background-color: black;
+      color: blanchedalmond;
+      padding: 10px;
+  }
+  .ab:hover{ 
+      background-color: blueviolet;
+    
+      
+  }
+.sm{
+    height: 100px;
+    width: 300px;
+    box-shadow: 2px 3px 5px darkblue;
+    padding: 5px !important;
+    margin: 20px !important;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .ab>img {
+      background-color: olive;
+      width: 300px;
+    }
+  }
